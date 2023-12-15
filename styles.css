@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
 
-.navbar {
-    background-color: red;
-    max-width: 80vw;
+nav {
+    max-width: 60vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: auto;
+    height: 62px;
 }
 
 .main {
@@ -29,4 +29,25 @@
     background-color: black;
     position: absolute;
     top: 0;
+}
+
+nav img{
+    color: red;
+    width: 114px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button{
+    position: relative;
+    z-index: 10;
+}
+
+.hero{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
 }
