@@ -1,2 +1,2 @@
 # Netflix-Clone
-This Repository  contains a clone of netflix website
+This Repository contains a clone of netflix website
