@@ -90,8 +90,7 @@ nav button {
 
 .btn {
     padding: 3px 8px;
-    font-weight: bold;
-    /* background-color: white; */
+    font-weight: 400;
     background-color: rgba(23, 23, 23, 0.2);
     border: 1px solid grey;
     color: white;
@@ -122,9 +121,52 @@ nav button {
     border: 1px solid grey;
     margin: 0px 8px;
     width: 22rem;
+    color: white;
 }
 
 ::placeholder {
     font-size: px;
     color: rgba(235, 221, 221, 0.7);
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+
+}
+
+.secimg {
+    position: relative;
+}
+
+.secimg img {
+    position: relative;
+    width: 35vw;
+    z-index: 10;
+}
+
+.secimg video {
+    width: 30vw;
+    position: absolute;
+    top: 51px;
+    right: 0;
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+}
+
+section.first>div:first-child {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+section.first>div :nth-child(2) {
+    font-size: 24px;
+    font-weight: bolder;
 }
