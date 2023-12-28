@@ -17,8 +17,21 @@ nav {
     align-items: center;
     justify-content: space-between;
     margin: auto;
-    height: 62px;
+    height: 100px;
 }
+
+nav img {
+    color: red;
+    width: 130px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
 
 .main {
     background-image: url("assests/images/bg.jpg");
@@ -38,20 +51,9 @@ nav {
     top: 0;
 }
 
-nav img {
-    color: red;
-    width: 114px;
-    position: relative;
-    z-index: 10;
-}
-
-nav button {
-    position: relative;
-    z-index: 10;
-}
 
 .hero {
-    height: calc(100% - 62px);
+    height: calc(100% - 100px);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -86,6 +88,8 @@ nav button {
 .line {
     height: 5px;
     background-color: rgb(65, 64, 64);
+    position: relative;
+    z-index: 20;
 }
 
 .btn {
@@ -196,9 +200,37 @@ section.first>div :nth-child(2) {
 
 .faqbox svg {
     filter: invert(1);
-    
+
 }
 
 .faqbox:hover {
     background-color: #414141;
+}
+
+footer {
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 14px;
+}
+
+.Questions {
+    padding: 34px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+
+.footer a {
+    color: white;
+    font-size: 14px;
+}
+
+.footer_item {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
 }
