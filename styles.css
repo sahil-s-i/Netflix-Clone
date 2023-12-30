@@ -142,11 +142,6 @@ nav button {
     align-items: center;
 }
 
-@media screen and (max-width:1300px) {
-    .first {
-        flex-wrap: wrap;
-    }
-}
 
 .secimg {
     position: relative;
@@ -154,7 +149,7 @@ nav button {
 
 .secimg img {
     position: relative;
-    width: 35vw;
+    width: 388px;
     z-index: 10;
 }
 
@@ -239,4 +234,15 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 23px;
+}
+
+
+@media screen and (max-width:1300px) {
+    .first {
+        flex-wrap: wrap;
+    }
+
+    .footer {
+        grid-template-columns: 1fr 1fr;
+    }
 }
