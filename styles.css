@@ -140,7 +140,12 @@ nav button {
     margin: auto;
     color: white;
     align-items: center;
+}
 
+@media screen and (max-width:1300px) {
+    .first {
+        flex-wrap: wrap;
+    }
 }
 
 .secimg {
@@ -154,7 +159,7 @@ nav button {
 }
 
 .secimg video {
-    width: 30vw;
+    width: 388px;
     position: absolute;
     top: 51px;
     right: 0;
@@ -163,6 +168,7 @@ nav button {
 section.first>div {
     display: flex;
     flex-direction: column;
+    padding: 34px 0;
 }
 
 section.first>div:first-child {
