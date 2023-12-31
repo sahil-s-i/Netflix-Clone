@@ -238,6 +238,11 @@ footer {
 
 
 @media screen and (max-width:1300px) {
+
+    .nav {
+        max-width: 90vw;
+    }
+
     .first {
         flex-wrap: wrap;
     }
@@ -262,5 +267,19 @@ footer {
 
     }
 
+    .hero-buttons {
+        flex-direction: column;
+    }
 
+    .faq h2 {
+        font-size: 32px;
+    }
+
+    footer {
+        max-width: 90vw;
+    }
+
+    .footer_item {
+        align-items: center;
+    }
 }
