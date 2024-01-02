@@ -23,7 +23,6 @@ nav {
 nav img {
     color: red;
     width: 145px;
-    
     position: relative;
     z-index: 10;
 }
