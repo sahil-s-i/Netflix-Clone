@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600;900&family=Roboto&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600;900&family=Roboto&display=swap');     */
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 
 * {
     margin: 0;
@@ -38,12 +41,12 @@ nav button {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: max(1200px, 100vw);
-    height: 70vh;
+    height: 115vh;
     position: relative;
 }
 
 .main .box {
-    height: 70vh;
+    height: 115vh;
     width: 100%;
     opacity: 0.54;
     background-color: black;
@@ -53,7 +56,7 @@ nav button {
 
 
 .hero {
-    max-width: 70vw;
+    max-width: 80vw;
     margin: auto;
     height: calc(100% - 100px);
     display: flex;
@@ -71,20 +74,21 @@ nav button {
     font-weight: 900;
     font-size: 48px;
     text-align: center;
+    font-family: 'Martel Sans', sans-serif;
+    line-height: 1.2;
 }
 
 .hero> :nth-child(2) {
     font-weight: 400;
     font-size: 24px;
     text-align: center;
-
 }
 
 .hero> :nth-child(3) {
     font-weight: 400;
     font-size: 20px;
     text-align: center;
-
+    line-height: 1.8;
 }
 
 .line {
@@ -126,7 +130,7 @@ nav button {
     background-color: rgba(23, 23, 23, 0.2);
     border: 1px solid grey;
     margin: 0px 8px;
-    width: 22rem;
+    width: 24rem;
     color: white;
 }
 
