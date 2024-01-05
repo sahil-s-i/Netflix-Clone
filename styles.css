@@ -92,6 +92,7 @@ nav button {
     line-height: 1.8;
 }
 
+
 .line {
     height: 5px;
     background-color: rgb(65, 64, 64);
@@ -136,8 +137,9 @@ nav button {
 }
 
 ::placeholder {
-    font-size: 18px;
-    color: rgba(235, 221, 221, 0.7);
+    font-size: 16px;
+    /* color: rgba(235, 221, 221, 0.7); */
+    letter-spacing: 0.4px;
 }
 
 .first {
