@@ -35,6 +35,9 @@ nav button {
     z-index: 10;
 }
 
+.btn svg {
+    margin: -4px 7px;
+}
 
 .main {
     background-image: url("assests/images/bg.jpg");
