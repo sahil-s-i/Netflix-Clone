@@ -58,7 +58,7 @@ nav button {
 .hero {
     max-width: 80vw;
     margin: auto;
-    height: calc(100% - 95px);
+    height: calc(100% - 90px);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -94,8 +94,8 @@ nav button {
 
 
 .line {
-    height: 5px;
-    background-color: rgb(65, 64, 64);
+    height: 8px;
+    background-color: rgba(65, 64, 64, 0.48);
     position: relative;
     z-index: 20;
 }
@@ -167,6 +167,7 @@ nav button {
     margin: auto;
     color: white;
     align-items: center;
+    height: 30rem;
 }
 
 
@@ -191,6 +192,7 @@ section.first>div {
     display: flex;
     flex-direction: column;
     padding: 34px 0;
+    flex-basis: 50%;
 }
 
 section.first>div :nth-child(1) {
@@ -203,6 +205,7 @@ section.first>div :nth-child(2) {
     font-size: 22px;
     font-weight: normal;
     letter-spacing: .5px;
+    line-height: 30px;
 }
 
 .faq {
