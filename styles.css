@@ -48,7 +48,7 @@ nav button {
 .main .box {
     height: 115vh;
     width: 100%;
-    opacity: 0.54;
+    opacity: 0.74;
     background-color: black;
     position: absolute;
     top: 0;
@@ -193,14 +193,16 @@ section.first>div {
     padding: 34px 0;
 }
 
-section.first>div:first-child {
+section.first>div :nth-child(1) {
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 900;
+    padding: 1.1rem 0px;
 }
 
 section.first>div :nth-child(2) {
-    font-size: 24px;
-    font-weight: bolder;
+    font-size: 22px;
+    font-weight: normal;
+    letter-spacing: .5px;
 }
 
 .faq {
