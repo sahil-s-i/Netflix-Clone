@@ -182,10 +182,17 @@ nav button {
 }
 
 .secimg video {
-    width: 325px;
+    width: 329px;
     position: absolute;
-    top: 111px;
-    right: 65px;
+    top: 115px;
+    right: 61px;
+}
+
+.secimg .secoundvideo {
+    width: 281px;
+    position: absolute;
+    top: 80px;
+    right: 90px;
 }
 
 section.first>div {
