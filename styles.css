@@ -157,7 +157,7 @@ nav button {
 #signin {
     border-radius: 4px;
     font-size: 14px;
-    padding: 7px 12px;
+    padding: 8px 14px;
 }
 
 .first {
@@ -177,7 +177,7 @@ nav button {
 
 .secimg img {
     position: relative;
-    width: 430px;
+    width: 440px;
     z-index: 10;
 }
 
