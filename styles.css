@@ -236,6 +236,7 @@ section.first>div :nth-child(2) {
 .faqbox {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #2d2d2d;
     padding: 30px;
     max-width: 70vw;
