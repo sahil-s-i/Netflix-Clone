@@ -193,7 +193,7 @@ nav button {
     position: absolute;
     top: 80px;
     right: 90px;
-    
+
 }
 
 section.first>div {
@@ -223,17 +223,23 @@ section.first>div :nth-child(2) {
 }
 
 .faq h2 {
-    text-align: center;
+    font-weight: 900;
     font-size: 48px;
+    text-align: center;
+    font-family: 'Martel Sans', sans-serif;
+    line-height: 1.2;
+    letter-spacing: -1.7px;
+    margin-top: 50px;
+    margin-bottom: 16px;
 }
 
 .faqbox {
     display: flex;
     justify-content: space-between;
     background-color: #2d2d2d;
-    padding: 24px;
-    max-width: 60vw;
-    margin: 30px auto;
+    padding: 30px;
+    max-width: 70vw;
+    margin: 10px auto;
     cursor: pointer;
     font-size: 24px;
     transition: all 0.5s ease-out;
