@@ -278,9 +278,8 @@ section.first>div :nth-child(2) {
 
 footer {
     color: white;
-    max-width: 60vw;
-    margin: auto;
-    padding: 14px;
+    max-width: 80vw;
+    margin: 2px auto;
 }
 
 .Questions {
@@ -289,7 +288,7 @@ footer {
 
 .footer {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1.5fr 1.5fr 1.5fr 1fr;
     color: white;
 }
 
