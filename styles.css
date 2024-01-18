@@ -284,16 +284,18 @@ footer {
 
 .Questions {
     padding: 34px 0px;
+    color: rgba(255,255,255,0.7);
 }
 
 .footer {
     display: grid;
     grid-template-columns: 1.5fr 1.5fr 1.5fr 1fr;
-    color: white;
+    color: rgba(255,255,255,0.7);
+    margin-bottom: 5rem;
 }
 
 .footer a {
-    color: white;
+    color: rgba(255,255,255,0.7);
     font-size: 14px;
 }
 
