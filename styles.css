@@ -195,7 +195,7 @@ nav button {
     z-index: 10;
 }
 
-.secound .secimg img{
+.secound .secimg img {
     z-index: 0;
 }
 
@@ -233,6 +233,19 @@ section.first>div :nth-child(2) {
     letter-spacing: .5px;
     line-height: 30px;
 }
+
+.secound .imganddownloadbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageandtext img{
+    width: 55px;
+}
+
+
 
 .faq {
     background: black;
