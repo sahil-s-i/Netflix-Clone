@@ -171,6 +171,19 @@ nav button {
     height: 30rem;
 }
 
+.secound .imganddownloadbox {
+    height: 100px;
+    /* background: #973030; */
+    z-index: 1;
+    position: relative;
+    bottom: 138px;
+    border: 3px solid rgba(151, 149, 149, 0.48);
+    background: black;
+    width: 264px;
+    /* right: 84px; */
+    left: 85px;
+    border-radius: 14px;
+}
 
 .secimg {
     position: relative;
@@ -180,6 +193,10 @@ nav button {
     position: relative;
     width: 440px;
     z-index: 10;
+}
+
+.secound .secimg img{
+    z-index: 0;
 }
 
 .secimg video {
