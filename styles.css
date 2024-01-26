@@ -249,14 +249,16 @@ section.first>div :nth-child(2) {
     width: 8vw;
     /* padding: 0px 68px; */
     margin: 0px 13px;
+    font-size: 0px;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    line-height: 20px;
 }
 
 .text .firstline {
     font-size: 16px !important;
-    /* text-align: center; */
     font-weight: 500 !important;
     padding: 1.1rem 0px !important;
-    /* line-height: 6.1px; */
     letter-spacing: 0px;
     line-height: 0;
 }
@@ -264,10 +266,8 @@ section.first>div :nth-child(2) {
 .text .secondline {
     font-size: 14px;
     color: #0071eb;
-    /* text-align: center; */
     font-weight: 400;
     padding: 0px;
-    /* line-height: 6.1px; */
     letter-spacing: 0px;
     line-height: 0;
 }
