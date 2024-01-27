@@ -278,13 +278,10 @@ section.first>div :nth-child(2) {
 
 .downloadgif {
     width: 3rem;
-    /* height: 3rem; */
     height: 3.75rem;
     outline: 2px solid rgb(0, 0, 0);
-    /* outline-offset: -2px; */
     display: block;
     background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif) center center no-repeat;
-    /* -webkit-background-size: 100%; */
     background-size: 100%;
     content: '';
 }
