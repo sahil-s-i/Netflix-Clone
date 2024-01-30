@@ -433,10 +433,23 @@ footer {
 }
 
 @media (min-width: 600px) and (max-width:900px) {
-
-    * {
-        background-color: red;
+    .hero> :nth-child(1) {
+        font-size: 3rem;
     }
+
+    .first {
+        flex-direction: column;
+    }
+
+
+
+    /* section.first>div :nth-child(1) {
+        font-size: 28px;
+    }
+
+    section.first>div :nth-child(2) {
+        font-size: 19px;
+    } */
 
     /* .nav {
         max-width: 90vw;
