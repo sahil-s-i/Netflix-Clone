@@ -452,6 +452,7 @@ footer {
 
     .first {
         height: 32rem;
+        margin-bottom: 4rem;
     }
 
     section.first>div {
@@ -460,8 +461,12 @@ footer {
         top: 40px;
     }
 
+    .secimg video {
+        top: 85px;
+        right: 52px;
+    }
 
-    /* section.first>div :nth-child(1) {
+        /* section.first>div :nth-child(1) {
         font-size: 28px;
     }
 
@@ -469,7 +474,7 @@ footer {
         font-size: 19px;
     } */
 
-    /* .nav {
+        /* .nav {
         max-width: 90vw;
     }
 
@@ -512,4 +517,4 @@ footer {
     .footer_item {
         align-items: center;
     } */
-}
+    }
