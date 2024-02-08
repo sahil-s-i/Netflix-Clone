@@ -466,14 +466,6 @@ footer {
         right: 52px;
     }
 
-
-    #contactform {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row;
-    }
-
     /* section.first>div :nth-child(1) {
         font-size: 28px;
     }
