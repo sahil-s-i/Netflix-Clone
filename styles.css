@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 * {
@@ -18,12 +18,12 @@ nav {
     align-items: center;
     justify-content: space-between;
     margin: auto;
-    height: 90px;
+    height: 91px;
 }
 
 nav img {
     color: red;
-    width: 145px;
+    width: 144px;
     position: relative;
     z-index: 10;
 }
