@@ -46,7 +46,7 @@ nav button {
 }
 
 .main .box {
-    height: 114vh;
+    height: 115vh;
     width: 101%;
     opacity: 0.60;
     position: absolute;
@@ -56,7 +56,7 @@ nav button {
 
 
 .hero {
-    max-width: 80vw;
+    max-width: 81vw;
     margin: auto;
     height: calc(100% - 90px);
     display: flex;
@@ -71,7 +71,7 @@ nav button {
 }
 
 .hero> :nth-child(1) {
-    font-weight: 900;
+    font-weight: 901;
     font-size: 48px;
     text-align: center;
     font-family: 'Martel Sans', sans-serif;
