@@ -167,7 +167,7 @@ nav button {
     margin: auto;
     color: white;
     align-items: center;
-    height: 30rem;
+    /* height: 30rem; */
 }
 
 .secound .imganddownloadbox {
@@ -399,6 +399,18 @@ footer {
 
     .first {
         flex-wrap: wrap;
+    }
+
+    .secound{
+        flex-wrap: wrap-reverse;
+    }
+
+    .secound .imganddownloadbox {   
+        justify-content: space-evenly;
+    }
+
+    .text {
+        width: 24vw;
     }
 
     .footer {
