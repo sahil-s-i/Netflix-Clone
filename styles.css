@@ -40,14 +40,14 @@ nav button {
     background-image: url("assests/images/bg.jpg");
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: max(1200px, 100vw);
+    background-size: max(210vh, 100vw);
     height: 116vh;
     position: relative;
 }
 
 .main .box {
-    height: 115vh;
-    width: 101%;
+    height: 116vh;
+    width: 100%;
     opacity: 0.60;
     position: absolute;
     top: 0;
