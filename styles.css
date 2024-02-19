@@ -19,6 +19,7 @@ nav {
     justify-content: space-between;
     margin: auto;
     height: 91px;
+    flex-wrap: wrap;
 }
 
 nav img {
@@ -32,9 +33,6 @@ nav button {
     position: relative;
     z-index: 11;
 }
-
-
-
 
 .main {
     background-image: url("assests/images/bg.jpg");
@@ -389,6 +387,14 @@ footer {
 
     .nav {
         max-width: 90vw;
+    }
+
+    .red-btn{
+        margin: 1rem auto;
+    }
+
+    .email-add{
+        width: 20rem;
     }
 
     .first {
