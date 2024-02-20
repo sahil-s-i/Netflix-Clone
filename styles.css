@@ -421,6 +421,27 @@ footer {
         width: 247px;
     }
 
+    .fourth{
+        flex-wrap: wrap-reverse;
+    }
+
+    .faqbox{
+        font-size: 1.2rem;
+    }
+
+    .faqbox svg {
+        width: 2rem;
+    }
+
+    .contact span {
+        text-align: center;
+    }
+
+    .nextbtns {
+        margin: 20px auto;
+        max-width: 70vw;
+    }
+
     .footer {
         grid-template-columns: 1fr 1fr;
         gap: 25px;
