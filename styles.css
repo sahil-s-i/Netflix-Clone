@@ -413,6 +413,14 @@ footer {
         width: 24vw;
     }
 
+    .secimg img {
+        width: 420px;
+    }
+
+    .secimg .secoundvideo {
+        width: 247px;
+    }
+
     .footer {
         grid-template-columns: 1fr 1fr;
         gap: 25px;
