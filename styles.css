@@ -167,6 +167,7 @@ nav button {
     margin: auto;
     color: white;
     align-items: center;
+    flex-wrap: wrap;
     /* height: 30rem; */
 }
 
@@ -505,8 +506,16 @@ footer {
 
     }
 
-    .first {
+    /* .first {
         flex-direction: column;
+    } */
+
+    .first {
+        margin-bottom: 4rem;
+    }
+
+    .secound{
+        flex-wrap: wrap-reverse;
     }
 
 
@@ -518,9 +527,7 @@ footer {
         font-size: 20px;
     }
 
-    .first {
-        margin-bottom: 4rem;
-    }
+    
 
     section.first>div {
         padding: 0px 0px;
