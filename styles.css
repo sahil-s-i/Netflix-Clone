@@ -167,7 +167,8 @@ nav button {
     margin: auto;
     color: white;
     align-items: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
     /* height: 30rem; */
 }
 
@@ -515,6 +516,10 @@ footer {
     }
 
     .secound{
+        flex-wrap: wrap-reverse;
+    }
+
+    .fourth{
         flex-wrap: wrap-reverse;
     }
 
