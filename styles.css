@@ -513,10 +513,15 @@ footer {
 
     .first {
         margin-bottom: 4rem;
+        flex-wrap: wrap;
     }
 
     .secound{
         flex-wrap: wrap-reverse;
+    }
+
+    .third{
+        flex-wrap: wrap;
     }
 
     .fourth{
