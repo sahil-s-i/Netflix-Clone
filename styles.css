@@ -603,4 +603,8 @@ footer {
     .footer_item {
         align-items: center;
     } */
+    
+    .contact span {
+        text-align: center;
+    }
 }
