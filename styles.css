@@ -570,21 +570,6 @@ footer {
         grid-template-columns: 1fr 1fr;
         gap: 25px;
     }
-
-    .hero> :nth-child(1) {
-        font-size: 32px;
-
-    }
-
-    .hero> :nth-child(2) {
-        font-size: 18px;
-
-    }
-
-    .hero> :nth-child(3) {
-        font-size: 18px;
-
-    }
  */
     
     .contact span {
