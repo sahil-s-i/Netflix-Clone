@@ -548,30 +548,6 @@ footer {
         right: 52px;
     }
     
-
-
-    /* section.first>div :nth-child(1) {
-        font-size: 28px;
-    }
-
-    section.first>div :nth-child(2) {
-        font-size: 19px;
-    } */
-
-    /* .nav {
-        max-width: 90vw;
-    }
-
-    .first {
-        flex-wrap: wrap;
-    }
-
-    .footer {
-        grid-template-columns: 1fr 1fr;
-        gap: 25px;
-    }
- */
-    
     .contact span {
         text-align: center;
     }
