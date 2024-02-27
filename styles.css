@@ -585,22 +585,7 @@ footer {
         font-size: 18px;
 
     }
-
-    .hero-buttons {
-        flex-direction: column;
-    }
-
-    .faq h2 {
-        font-size: 32px;
-    }
-
-    footer {
-        max-width: 90vw;
-    }
-
-    .footer_item {
-        align-items: center;
-    } */
+ */
     
     .contact span {
         text-align: center;
