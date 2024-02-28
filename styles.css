@@ -137,7 +137,6 @@ nav button {
 
 ::placeholder {
     font-size: 16px;
-    /* color: rgba(235, 221, 221, 0.7); */
     letter-spacing: 0.4px;
 
 }
@@ -339,7 +338,6 @@ section.first>div :nth-child(2) {
 
 .contact span {
     color: white;
-    /* text-align: center; */
     font-size: 20px;
     font-weight: 400;
 }
